@@ -39,3 +39,12 @@ git log - выводит информацию о коммитах
 
 git push -u origin main - пушим первый раз в удаленный репозиторий
 git push - все остальные пуши
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
