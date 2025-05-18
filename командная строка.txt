@@ -17,6 +17,7 @@ cp index.html src/ - скопировали index.html в папку src
 cp index.html style.css script.js src/ - скопировали три файла (index.html, style.css и script.js) в папку src 
 mv table.csv ./very-important-files - переместить файл
 cat myfile.txt - показать содержимое файла (только текст)
+echo "Вторая строка файла" >> file.txt - внесет данный текст в самый конец файла
 rm example.txt - удалили файл example.txt из текущей папки 
 rmdir images - команда удалит папку images из текущей директории, если папка images пуста 
 rm -r images - удалили папку images со всем её содержимым из текущей директории 
@@ -34,6 +35,7 @@ git add . - добавить всю текущую папку
 
 git commit -m "Мой первый коммит!" - сохранение
 git log - выводит информацию о коммитах
+git log --oneline - краткое описание коммитов
 
 git push -u origin main - пушим первый раз в удаленный репозиторий
 git push - все остальные пуши
